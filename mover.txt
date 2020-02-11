@@ -1,0 +1,7 @@
+function mover(arr){
+    arr.shift();
+  arr.push(0);
+  return arr
+}
+
+console.log(mover([1,2,3]));
